@@ -22,10 +22,11 @@ The project has the following features:
 Team Members
 This project is developed by the following team members:
 
-John Doe
-Jane Doe
-Bob Smith
-Alice Johnson
+Wan Azfar Aiman Bin Wan Azmi
+Muhammad Hafez Nadzrin Bin Shabudin
+Nurul Zahidah Binti Omar
+Balqis Binti Roslan
+Narmatha A/P Sivakumaran
 
 Installation
 To run the project locally, follow these steps:
