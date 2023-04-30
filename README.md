@@ -19,28 +19,46 @@ Features
 The project has the following features:
 
 -User, admin registration and login system
+
 -User profile management
+
 -View all types of books with synopsis and ratings
+
 -Add, edit, and delete reviews and ratings
+
 -Comment on reviews
+
 -Show books by genre and rating
 
+
 Team Members
+
 This project is developed by the following team members:
 
 Wan Azfar Aiman Bin Wan Azmi
+
 Muhammad Hafez Nadzrin Bin Shabudin
+
 Nurul Zahidah Binti Omar
+
 Balqis Binti Roslan
+
 Narmatha A/P Sivakumaran
 
+
 Installation
+
 To run the project locally, follow these steps:
 
 -Clone the repository to your local machine.
+
 -Create a new database and import the SQL file from the database folder.
+
 -Update the database configuration in the config.php file.
+
 -Open the project in a web browser.
 
+
 Conclusion
+
 This project is a simple yet effective book review and rating system developed for the Web Development subject. It can be used as a starting point for further development or as a standalone system for small-scale book review and rating websites.
