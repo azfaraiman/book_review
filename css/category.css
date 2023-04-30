@@ -1,0 +1,139 @@
+:root{
+  --green:#000;
+  --dark-color:#000;
+  --black:#444;
+  --light-color:#666;
+  --border:.1rem solid rgba(0,0,0,.1);
+  --border-hover:.1rem solid var(--black);
+  --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.btn{
+  margin-top: 1rem;
+  display:inline-block;
+  padding:.9rem 3rem;
+  border-radius: .5rem;
+  color:#fff;
+  background:#FF6F00;
+  font-size: 1.7rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn:hover{
+  background:var(--dark-color);
+}
+
+
+.heading{
+  text-align :center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.heading::before{
+  content:'';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height:.01rem;
+  background:var(--black);
+  z-index: -1;
+}
+
+.heading span{
+  font-size: 3rem;
+  padding: .5rem 2rem;
+  color: var(--black);
+  background: #fff;
+  border:var(--border);
+}
+
+.bookcategory{
+  display: grid;
+  align-items: center;
+}
+.bookcategory .bookcategory-slider .wrapper{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 3px;
+  padding: 0px;
+}
+
+.bookcategory .bookcategory-slider .box{
+  width: 22.5rem;
+  position:relative;
+  overflow: hidden;
+  border: var(--border);
+  text-align: center;
+}
+.bookcategory .bookcategory-slider .box:hover{
+  border:var(--border-hover);
+  transform: translateY(0%);
+}
+.bookcategory .bookcategory-slider .box:hover .image{
+  transform: translateY(6rem);
+}
+.bookcategory .bookcategory-slider .box .image{
+  padding: 1rem;
+  background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
+}
+
+.bookcategory .bookcategory-slider .box .image img{
+  height: 25rem;
+}
+
+.bookcategory .bookcategory-slider .box .content{
+ 
+  padding:1.5rem;
+}
+.bookcategory .bookcategory-slider .box .content .h3{
+  font-size: 1.5rem;
+  color:black;
+}
+
+
+.bookview{
+  display: grid;
+  align-items: center
+}
+.bookview .bookview-slider .wrapper{
+  display: grid;
+  grid-template-columns:  auto auto auto auto;
+  gap: 10px;
+  padding: 0px;
+}
+
+.bookview .bookview-slider .box{
+  width: 22.5rem;
+  position:relative;
+  overflow: hidden;
+  border: var(--border);
+  text-align: center;
+}
+.bookview .bookview-slider .box:hover{
+  border:var(--border-hover);
+  transform: translateY(0%);
+}
+.bookview .bookview-slider .box:hover .image{
+  transform: translateY(6rem);
+}
+.bookview .bookview-slider .box .image{
+  padding: 1rem;
+  background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
+}
+
+.bookview .bookview-slider .box .image img{
+  height: 15.5rem;
+}
+
+.bookview .bookview-slider .box .content{
+  background:#eee;
+  padding:1.5rem;
+}
+
+.bookview .bookview-slider .box .content h3{
+  font-size: 1.5rem;
+  color:var(--black);
+}
