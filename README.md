@@ -32,5 +32,5 @@ To run the project locally, follow these steps:
 - Update the database configuration in the config.php file.
 - Open the project in a web browser.
 
-## Installation
+## Conclusion
 This project is a simple yet effective book review and rating system developed for the Web Development subject. It can be used as a starting point for further development or as a standalone system for small-scale book review and rating websites.
