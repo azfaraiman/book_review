@@ -2,13 +2,18 @@ Book Review and Rating System
 
 This project is a book review and rating system that allows users to review, rate, and comment on various types of books such as Fantasy, Science Fiction, Romance, and Thriller. The project is developed as a part of a university project for the Web Development subject.
 
+
 Technologies Used
 The project is developed using the following technologies:
 
 PHP
+
 HTML
+
 CSS
+
 JavaScript
+
 
 Features
 The project has the following features:
